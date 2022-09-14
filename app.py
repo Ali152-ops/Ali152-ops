@@ -6,8 +6,6 @@ from pywebio.input import *
 from pywebio.output import *
 from pywebio.pin import *
 from pywebio.session import *
-import requests, json, time 
-from time import sleep
 
 
 
@@ -173,7 +171,7 @@ def info_user () :
 			for k in x:
 				word += str(k)
 				result.reset (word)
-				sleep (0.2)
+				
 		
 		x = "[~] 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 (المطور) :"
 		j(x)
